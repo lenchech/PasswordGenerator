@@ -1,0 +1,9 @@
+int uniqueMorseRepresentations(char** words, int wordsSize) {
+    char MCA = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+    char AMC[97] = {0};
+    char MCT = AMC + MCA;
+    printf("%d", MCT);
+    return 0;
+    
+
+}
